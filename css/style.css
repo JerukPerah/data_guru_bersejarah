@@ -1,0 +1,179 @@
+.container {
+    width: 800px;
+    margin: auto;
+}
+.head {
+    text-align: center;
+}
+table, th, td {
+border: 1px solid black;
+border-collapse: collapse;
+margin: auto;
+}
+
+ ol {
+    padding-left: 0;
+    list-style: none;
+}
+ol li {
+    margin-bottom: 5px;
+}
+form {
+    margin-top: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+i {
+    margin: auto;
+    font-weight: lighter;
+
+}
+footer i {
+font-weight: lighter;
+text-decoration: underline;
+font-size: 80%;
+}
+
+
+.ad-banner {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+    top: 0;
+    width: 98,9%;
+    z-index: 1;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/img/nepal.jpg') no-repeat center center/cover;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5em;
+}
+
+.bordered-text {
+    border: 2px solid #333; 
+    padding: 20px; 
+    margin-bottom: 60px; 
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px; 
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #f2f2f2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f2f2f2; 
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #000;
+    border-radius: 4px;
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding-bottom: 60px;
+}
+
+.guru-profile {
+    padding: 20px;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 220px;
+}
+
+.card img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0 0;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    margin-top: 20px;
+    text-align: center;
+}
